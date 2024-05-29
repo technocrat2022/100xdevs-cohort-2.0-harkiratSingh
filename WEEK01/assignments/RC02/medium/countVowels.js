@@ -10,7 +10,7 @@ function countVowels(str) {
     const newStr = str.toLowerCase()
     int count = 0;
     if((newStr[i]=='a'||newStr[i]=='e'||newStr[i]=='i'||newStr[i]=='o'||newStr[i]=='u')||
-       (newStr[i]=='a'||newStr[i]=='e'||newStr[i]=='i'||newStr[i]=='o'||newStr[i]=='u')){
+       (newStr[i]=='A'||newStr[i]=='E'||newStr[i]=='I'||newStr[i]=='O'||newStr[i]=='U')){
             count += 1;
     }
     return count;
